@@ -1,0 +1,20 @@
+.tabs {
+   background: $beige;
+}
+
+.item {
+   display: inline-flex;
+}
+
+.link {
+   padding: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+   border-right: 2px solid #fff;
+   color: rgba($gray, .8);
+}
+
+.active-tab {
+   background: #fff;
+   color: $green;
+}
